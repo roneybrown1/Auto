@@ -2,9 +2,9 @@ import pyttsx3
 from f_descriptions import description
 
 # Initializing the engine.
-engine = pyttsx3.init('sapi5')
+engine = pyttsx3.init()
 voices = engine.getProperty('voices')
-engine.setProperty('voice', voices[1].id)
+engine.setProperty('voice', voices[0].id)
 setto = 1
 description()
 # 0 = Eva-US, 1 = Mark-US, 2 = Hazel-GB, 3 = David-US, 4 = Mary-US

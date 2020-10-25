@@ -70,7 +70,6 @@ def questionOne():
     file.close()
     sleep(2)
 
-
     say = "Yummy! " + str(user_fFood) + " sounds like it would be very enjoyable, I would love to try it one day," \
           "but I can only eat cookies, luckily, I always have enough cache for them!, Hahaha...., So far I feel like" \
           "I have really gotten to know you!!!!!!!!! Would you like to know what I know about you so far?"

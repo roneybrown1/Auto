@@ -119,4 +119,4 @@ def questionOne():
             wrong_info = input('[N]ame? Favorite [C]olor?, Favorite [F]ood?, or [L]ocation?')
 
 
-questionOne()
+#questionOne()
